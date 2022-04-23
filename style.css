@@ -1,0 +1,50 @@
+html{
+    margin: 20px;
+    
+}
+
+body {
+    background-image: url('./assets/bb.jpeg');
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+.imageFrame {
+    transform: scale(.75);
+    position: relative;
+    align-content: center;
+    top: 410px;
+    left: 30px;
+    width:100px;
+    height:100px;
+}
+
+.firstWindow {
+    position: fixed;
+    top: 420px;
+    left: 50px;
+}
+
+.characterName {
+    position: fixed;
+    top:280px;
+    left: 40px;
+    font-family: "Dekko";
+    font-size: 30px;
+}
+
+.jobTitle {
+    position:fixed;
+    top: 680px;
+    left:60px;
+    font-family: "Dekko";
+    font-size: 22px;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: Marker Felt, fantasy;
+    position:fixed;
+    left: 50px;
+}
